@@ -1,0 +1,10 @@
+	EXPORT __main
+	AREA MY_PRO3_7_CODE, CODE, READONLY
+
+__main
+	MOV		R1, #0x4C
+	MOV		R2,	#0x6E
+	SUBS	R3, R1, R2
+LOOP
+	B 		LOOP
+	END

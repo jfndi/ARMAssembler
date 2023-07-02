@@ -3,7 +3,7 @@
 	AREA		PROG2_4, CODE, READONLY
 
 __main
-	ADR		R2, DTA
+	ADR			R2, DTA
 	LDRB		R0, [R2]
 	ADD			R1, R1, R0
 H1

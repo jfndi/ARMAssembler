@@ -1,0 +1,14 @@
+; Subtraction.
+	EXPORT	__main
+	AREA MY_PRO3_5_CODE, CODE, READONLY
+
+__main
+	MOV		R2, #0x4F
+	MOV		R3, #0x39
+	SUBS	R4, R2, R3
+	
+	MOV		R2, #0x4F
+	SUBS	R4, R2, #0x05
+LOOP
+	B		LOOP
+	END
