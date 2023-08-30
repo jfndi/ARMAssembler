@@ -73,7 +73,7 @@
         <LExpSel>0</LExpSel>
       </OPTXL>
       <OPTFL>
-        <tvExp>0</tvExp>
+        <tvExp>1</tvExp>
         <tvExpOptDlg>0</tvExpOptDlg>
         <IsCurrentTarget>1</IsCurrentTarget>
       </OPTFL>
@@ -108,7 +108,7 @@
         <sDllPa></sDllPa>
         <sDlgDll></sDlgDll>
         <sDlgPa></sDlgPa>
-        <sIfile></sIfile>
+        <sIfile>.\Prog4-6.ini</sIfile>
         <tDll></tDll>
         <tDllPa></tDllPa>
         <tDlgDll></tDlgDll>
@@ -144,7 +144,7 @@
           <Type>0</Type>
           <LineNumber>0</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134218440</Address>
+          <Address>134218444</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -153,12 +153,12 @@
           <BreakIfRCount>1</BreakIfRCount>
           <Filename></Filename>
           <ExecCommand></ExecCommand>
-          <Expression>0x080002C8</Expression>
+          <Expression>0x080002CC</Expression>
         </Bp>
         <Bp>
           <Number>1</Number>
           <Type>0</Type>
-          <LineNumber>4</LineNumber>
+          <LineNumber>7</LineNumber>
           <EnabledFlag>1</EnabledFlag>
           <Address>0</Address>
           <ByteObject>0</ByteObject>
@@ -242,7 +242,7 @@
 
   <Group>
     <GroupName>Source Group 1</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -261,8 +261,16 @@
   </Group>
 
   <Group>
+    <GroupName>::CMSIS</GroupName>
+    <tvExp>0</tvExp>
+    <tvExpOptDlg>0</tvExpOptDlg>
+    <cbSel>0</cbSel>
+    <RteFlg>1</RteFlg>
+  </Group>
+
+  <Group>
     <GroupName>::Device</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>1</RteFlg>

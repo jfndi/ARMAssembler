@@ -73,7 +73,7 @@
         <LExpSel>0</LExpSel>
       </OPTXL>
       <OPTFL>
-        <tvExp>0</tvExp>
+        <tvExp>1</tvExp>
         <tvExpOptDlg>0</tvExpOptDlg>
         <IsCurrentTarget>1</IsCurrentTarget>
       </OPTFL>
@@ -144,7 +144,7 @@
           <Type>0</Type>
           <LineNumber>0</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134218440</Address>
+          <Address>134218450</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -153,12 +153,12 @@
           <BreakIfRCount>1</BreakIfRCount>
           <Filename></Filename>
           <ExecCommand></ExecCommand>
-          <Expression>0x080002C8</Expression>
+          <Expression>0x080002D2</Expression>
         </Bp>
         <Bp>
           <Number>1</Number>
           <Type>0</Type>
-          <LineNumber>4</LineNumber>
+          <LineNumber>11</LineNumber>
           <EnabledFlag>1</EnabledFlag>
           <Address>0</Address>
           <ByteObject>0</ByteObject>
@@ -167,27 +167,19 @@
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>0</BreakIfRCount>
-          <Filename>.\main.s</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression></Expression>
-        </Bp>
-        <Bp>
-          <Number>2</Number>
-          <Type>0</Type>
-          <LineNumber>1</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>0</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>0</BreakIfRCount>
-          <Filename>.\main.s</Filename>
+          <Filename>.\test.s</Filename>
           <ExecCommand></ExecCommand>
           <Expression></Expression>
         </Bp>
       </Breakpoint>
+      <MemoryWindow1>
+        <Mm>
+          <WinNumber>1</WinNumber>
+          <SubType>0</SubType>
+          <ItemText>0x080002C8</ItemText>
+          <AccSizeX>0</AccSizeX>
+        </Mm>
+      </MemoryWindow1>
       <Tracepoint>
         <THDelay>0</THDelay>
       </Tracepoint>
@@ -242,7 +234,7 @@
 
   <Group>
     <GroupName>Source Group 1</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -253,8 +245,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\main.s</PathWithFileName>
-      <FilenameWithoutPath>main.s</FilenameWithoutPath>
+      <PathWithFileName>.\test.s</PathWithFileName>
+      <FilenameWithoutPath>test.s</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -262,7 +254,7 @@
 
   <Group>
     <GroupName>::Device</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>1</RteFlg>
